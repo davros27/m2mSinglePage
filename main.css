@@ -1,0 +1,92 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: rgb(179,220,238);
+    font-family: helvetica;
+}
+
+h2 {
+    color:white;
+    width:100%;
+    text-align: left;
+    height:1.4em;
+    vertical-align: middle;
+    background-color: rgba(8,89,122,0.5);
+}
+
+nav {
+    position: fixed;
+    width:15%;
+    top: 2%;
+    left:0;
+    text-align: right;
+    color: white;
+    
+    vertical-align: middle;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    margin:0;
+    width:100%;
+    vertical-align: middle;
+    
+}
+
+li {
+    font-size: 1.5em;
+    width: inherit;
+    vertical-align: middle;
+    background-color: rgb(8,89,122);
+    padding-right: 0.7em;
+    height:1.4em;
+    
+    
+}
+
+li:hover {
+    background-color: rgba(8,89,122,0.4);
+}
+
+.topmenu {
+    border-top-right-radius: 2em;
+}
+
+.bottommenu{
+    border-bottom-right-radius: 2em;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#wrapper {
+    width:60%;
+    height:auto;
+    
+    text-align: center;
+
+}
+
+header {
+    
+}
+
+#adbanner{
+    margin-top: 2%;
+    height:90px;
+    width:100%;
+    margin-bottom:2%;
+}
+
+#adbanner img {
+    height:100%;
+    width:100%;
+}
