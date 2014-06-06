@@ -68,11 +68,12 @@ a {
 }
 
 #wrapper {
-    width:60%;
+    width:65%;
     height:auto;
     
     text-align: center;
 
+    margin-left:25%;
 }
 
 header {
